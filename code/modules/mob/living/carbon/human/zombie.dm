@@ -256,7 +256,7 @@
 
 	for(var/i = rand(maxchanges / 2, maxchanges), i > 0, i--)
 		var/insertpos = rand(1, message_list.len)
-		message_list.Insert(insertpos, "[pick("√М√О√З√Г√И", "√М√Ѓ√І√£√®", "√М√Ѓ√Ѓ√І√£√®√®√®", "√М√О√О√О√З√Г√И√И√И√И", "√Б√О√Л√Ь√Н√О", "√Б√О√Л√Ь", "√П√О√М√О√Г√И", "√Р√А√А√А√А", "√А√А√А√А", "√А√Р√Р√Х", "√О√Т√К√Р√О√Й√Т√Е", "√О√Т√К√Р√О√Й")]...")
+		message_list.Insert(insertpos, "[pick("ћќ«√»", "ћозги", "ћоозгиии", "ћќќќ«√»»»»", "ЅќЋ№Ќќ", "ЅќЋ№", "ѕќћќ√»", "–јјјј", "јјјј", "ј––’", "ќ“ –ќ…“≈", "ќ“ –ќ…")]...")
 
 	for(var/i = 1, i <= message_list.len, i++)
 		if(prob(50) && !(copytext(message_list[i], length(message_list[i]) - 2) == "..."))
